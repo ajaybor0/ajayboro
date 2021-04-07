@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Boro - a web developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container header-flex">
+            <div class="logo">
+              <a href="./index.html"><img id="logo-img" src="/images/logo-img.svg" alt="logo image"></a>
+            </div>
+            <nav id="navbar" class="nav">
+                <ul class="nav__list">
+                    <li class="nav__list-item"><a href="./index.html" class="nav__list-link active">Home</a></li>
+                    <li class="nav__list-item"><a href="#projects" class="nav__list-link ">Work</a></li>
+                    <li class="nav__list-item"><a href="#about" class="nav__list-link">About</a></li>
+                    <li class="nav__list-item"><a href="#contact" class="nav__list-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section id="welcome-section" class="hero-section">
+            <div class="container hero-flex">
+                <div class="hero-text">
+                    <h1 class="hero--title">Hello,</h1>
+                    <h2 class="hero--title">I'm Ajay Boro.</h2>
+                    <p class="hero--subtitle">Frontend Developer.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="project-tile project-bg05">
+                <div class="container project-flex">
+                    <div class="project-text">
+                        <h2 class="project-num">01</h2>
+                        <h3 class="project-title">Lotus Traders</h3>
+                        <a class="project-link" href="https://lotustraders.co.in/" target="_blank">view
+                            project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-tile project-bg06">
+                <div class="container project-flex">
+                    <div class="project-text">
+                        <h2 class="project-num">02</h2>
+                        <h3 class="project-title">Tin Dog Web</h3>
+                        <a class="project-link" href="https://tindogbootstrap.netlify.app/" target="_blank">view
+                            project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-tile project-bg03">
+                <div class="container project-flex">
+                    <div class="project-text">
+                        <h2 class="project-num">03</h2>
+                        <h3 class="project-title">Landing Page</h3>
+                        <a class="project-link" href="https://original-trombones.netlify.app/" target="_blank">view
+                            project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-tile project-bg04">
+                <div class="container project-flex">
+                    <div class="project-text">
+                        <h2 class="project-num">04</h2>
+                        <h3 class="project-title"> Documentation </h3>
+                        <a class="project-link" href="https://css-cheatsheet.netlify.app/" target="_blank">view
+                            project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-tile project-bg02">
+                <div class="container project-flex">
+                    <div class="project-text">
+                        <h2 class="project-num">05</h2>
+                        <h3 class="project-title"> Survey Form</h3>
+                        <a class="project-link" href="https://survey-form-dark.netlify.app/" target="_blank">view
+                            project</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-tile project-bg01">
+                <div class="container  project-flex">
+                    <div class="project-text">
+                        <h2 class="project-num">06</h2>
+                        <h3 class="project-title"> Tribute Page</h3>
+                        <a class="project-link" href="https://mk-gandhi-tribute-page.netlify.app/" target="_blank">view
+                            project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about">
+            <div class="container about-flex">
+                <div class="about__text">
+                    <div class="about-me">
+                        <h2 class="about-name">Ajay Boro</h2>
+                        <h4 class="about-subname">Frontend Developer</h4>
+                    </div>
+                    <p class="about-description">
+                        I'm a Web Developer based in India focused on Frontend Development.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container contact-flex">
+                <div class="contact__me">
+                    <h3 class="contact__me--title">
+                        Have a project? <br>
+                        I can help!
+                    </h3>
+                </div>
+                <form class="contact__form" name="contact" method="POST" data-netlify="true">
+                    <input type="text" class="input" name="name" placeholder="Your Name" required>
+                    <br>
+                    <input type="email" name="email" class="input" placeholder="Your Email" required>
+                    <br>
+                    <textarea class="input" name="subject" placeholder="Your Message"></textarea>
+                    <br>
+                    <input type="submit" value="Submit" class="btn">   
+                </form>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container footer-flex">
+                <div class="copyright">
+                    <p>© 2020 - 2021 <a class="copyright-name" href="https://ajayboro.netlify.app/">Ajay Boro</a>. All rights
+                        reserved.</p>
+                </div>
+                <nav class="footer__nav">
+                    <a href="https://www.linkedin.com/in/ajay-boro-3122a31b2/" class="footer-link"
+                        target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/ajaybor0" class="footer-link" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://www.instagram.com/ajaybor0/?hl=en" class="footer-link"
+                            target="_blank"><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://twitter.com/ajaybor0" class="footer-link"
+                            target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://github.com/ajaybor0" class="footer-link"
+                            target="_blank"><i class="fab fa-github-square"></i></a>
+                </nav>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

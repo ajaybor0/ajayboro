@@ -1,0 +1,384 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+  padding: 50px 0;
+  width: 100%;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo-img {
+  height: 80px;
+  width: 160px;
+  display: block;
+  cursor: pointer;
+}
+
+.nav__list {
+  display: flex;
+  list-style: none;
+}
+
+.nav__list-item {
+  margin-left: 30px;
+}
+
+.nav__list-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #72757e;
+}
+
+a.active,
+.nav__list-link:hover {
+  color: #1a1b1f;
+  padding-bottom: 5px;
+  border-bottom: #72757e solid 3.5px;
+}
+
+.hero-section {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.hero-text {
+  color: #1a1b1f;
+}
+
+.hero--title {
+  font-size: 120px;
+}
+
+.hero--subtitle {
+  font-size: 50px;
+  opacity: 0.8;
+}
+.project-bg06 {
+  background-image: url("/images/tindog-page.webp");
+}
+.project-bg05 {
+  background-image: url("/images/lotus-traders.webp");
+}
+
+.project-bg01 {
+  background-image: url("/images/tribute-page.webp");
+}
+
+.project-bg02 {
+  background-image: url("/images/survey-form-page.webp");
+}
+
+.project-bg03 {
+  background-image: url("/images/landing-page.webp");
+}
+
+.project-bg04 {
+  background-image: url("/images/documentation-page.webp");
+}
+.project-bg01,
+.project-bg02,
+.project-bg03,
+.project-bg04,
+.project-bg05,
+.project-bg06 {
+  width: 100%;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.project-flex {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.project-text {
+  background-color: rgb(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 50px;
+}
+
+.project-num {
+  font-size: 85px;
+  opacity: 0.7;
+}
+
+.project-title {
+  font-size: 45px;
+}
+
+.project-link {
+  font-size: 21px;
+  text-decoration: none;
+  line-height: 100px;
+  color: #ffffff;
+  border: #ffffff solid 2px;
+  padding: 5px 10px;
+  opacity: 0.8;
+}
+
+.project-link:hover {
+  opacity: 1;
+}
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("/images/about-me.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: rgb(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 0 50px;
+}
+
+.about-me {
+  margin-bottom: 60px;
+}
+
+.about-name {
+  font-size: 42px;
+}
+
+.about-subname {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  letter-spacing: 3px;
+  opacity: 0.8;
+}
+
+.about-description {
+  font-family: "Playfair Display", serif;
+  font-size: 64px;
+  line-height: 1.5;
+}
+
+.contact-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.contact__me {
+  margin: 50px 0 30px 0;
+}
+
+.contact__me--title {
+  font-size: 58px;
+  padding: 0 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.contact__form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  width: 50%;
+  font-size: 21px;
+  padding: 20px 5px;
+  border-top: none;
+  border-left: none;
+  border-bottom: 2px solid gray;
+  border-right: none;
+  margin-top: 20px;
+}
+
+.btn {
+  font-size: 21px;
+  color: #fff;
+  background-color: #1a1b1f;
+  border: #1a1b1f solid 3px;
+  padding: 20px 60px;
+  margin: 20px 0 50px 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #1a1b1f;
+  border: #1a1b1f solid 3px;
+}
+
+.footer {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #f4f4f4;
+}
+
+.footer-flex {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright-name {
+  text-decoration: none;
+  color: #1a1b1f;
+  opacity: 0.8;
+}
+
+.copyright {
+  font-size: 18px;
+}
+
+.copyright-name:hover {
+  opacity: 1;
+}
+
+.footer-link {
+  margin-left: 30px;
+  color: #1a1b1f;
+  opacity: 0.8;
+  font-size: 30px;
+}
+
+.footer-link:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero--title {
+    font-size: 90px;
+  }
+
+  .hero--subtitle {
+    font-size: 28px;
+  }
+
+  .about {
+    background-image: url("/images/about-me01.webp");
+  }
+
+  .footer-flex {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+
+  .footer__nav {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+  }
+
+  .footer-link {
+    margin: 20px;
+  }
+}
+
+@media only screen and (max-width: 502px) {
+  .header {
+    padding-top: 20px;
+  }
+
+  .header-flex {
+    flex-direction: column;
+  }
+
+  .nav__list-item {
+    margin-top: 20px;
+  }
+
+  .hero--title {
+    line-height: 1;
+  }
+
+  .project-flex {
+    justify-content: center;
+  }
+
+  .project-text {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .project-title {
+    font-size: 35px;
+  }
+
+  .about-flex {
+    width: 100%;
+  }
+
+  .about-description {
+    font-size: 40px;
+  }
+
+  .contact__me--title {
+    font-size: 48px;
+  }
+
+  .footer {
+    padding: 30px 0;
+  }
+
+  .footer-link {
+    margin: 10px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .project-title {
+    font-size: 32px;
+  }
+
+  .contact__me--title {
+    font-size: 38px;
+  }
+}
